@@ -26,10 +26,10 @@ while True:
         txt=c.recv(4096).decode('utf-8')
         #print(txt)
 
-        if txt.startswith("SIZE "):
+        if txt.startswith("URL "):
             tmp = txt.split(" ")
-            sizee = int(tmp[1])
-            c.send('GOT SIZE'.encode())
+            urll = tmp[1]
+            c.send('GOT URL'.encode())
 
         else:
             if j==1:
@@ -61,7 +61,7 @@ while True:
                 Id="Unknown"
         
             if Id!="Unknown":
-                print(Id+' Yes')
+                print('Yes'+'\n'+Id+'\n'+urll)
                 j=1
 
 cv2.waitKey(0)

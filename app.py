@@ -55,10 +55,10 @@ if flag==1:
         with open('faces{}.jpg'.format(i), 'rb') as f:
             data = f.read()
         size = len(data)
-        s.sendall("SIZE {0}".format(size).encode())
+        s.sendall("URL {0}".format(url).encode())
         answer = s.recv(4096)
         txt=answer.decode('utf-8')
-        if txt == 'GOT SIZE':
+        if txt == 'GOT URL':
             s.sendall(data)
         print('sent')
         
