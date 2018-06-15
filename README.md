@@ -21,8 +21,8 @@ Note: Please pull requests in alternate branch.
 
 # Requirements
 Python 3 and above (conda install preferred)
-Packages to be installed:
 
+Packages to be installed:
 ->Numpy
 ->OpenCV
 ->PIL/pillow
