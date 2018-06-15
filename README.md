@@ -22,13 +22,14 @@ Note: Please pull requests in alternate branch.
 # Requirements
 Python 3 and above (conda install preferred)
 
-Packages to be installed:
-->Numpy
-->OpenCV
-->PIL/pillow
+Packages to be installed:  
+->Numpy  
+->OpenCV  
+->PIL/pillow  
 ->requests
 
 An imagga account : https://imagga.com/ (Change api_key (line 11) and api_secret (line 12) in app.py with respect to your account)
+
 OS: Windows (Verified) or linux (should do fine)
 
 Note: This project is still ongoing, and fork it if you are interested.
