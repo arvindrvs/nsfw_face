@@ -2,7 +2,7 @@
 Photoshopped and leaked nude photos of celebrities and normal people are circulated throughout the internet. This project is aimed to report all those images (Using Opencv and imagga) to the search engine with image URL and authentication id to remove the content.
 
 # Working
-There are 4 main python code files namely app.py, ser.py, trainner.py and dataset.py
+There are 5 main python code files namely cache.py, app.py, ser.py, trainner.py and dataset.py
 
 First, People who doesnt want their nude content in internet, can signup at a website, which will use webcam to capture their images and store it in dataset (dataset.py)
 When the signup process is complete, then the trainner.py is run to train the new dataset and creates a trainer yml file inside trainner folder
